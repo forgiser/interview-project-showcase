@@ -1092,8 +1092,7 @@ function renderProjectPage(data, project) {
   coverImg.alt = project.name;
 
   const video = document.getElementById("project-video");
-  video.src = project.videoUrl || DEFAULT_VIDEO;
-  video.poster = cover;
+  setVideoSource(video, project.videoUrl || DEFAULT_VIDEO, cover);
 
   document.getElementById("project-feature-count").textContent =
     `${projectModuleCount(project)} 个模块`;
@@ -1125,6 +1124,20 @@ function renderProjectPage(data, project) {
   );
 }
 
+function setVideoSource(video, source, fallbackPoster) {
+  video.pause();
+  video.autoplay = true;
+  video.muted = true;
+  video.poster = fallbackPoster;
+  video.onloadeddata = () => {
+    video.play().catch(() => {
+      // Browser autoplay policies may still require a user gesture.
+    });
+  };
+  video.src = source;
+  video.load();
+}
+
 function renderFeaturePage(data, project, feature) {
   showView("feature-view");
 
@@ -1154,12 +1167,12 @@ function renderFeaturePage(data, project, feature) {
   if (feature.videoUrl) {
     video.hidden = false;
     videoEmptyState.hidden = true;
-    video.src = feature.videoUrl;
-    video.poster = poster;
-    video.load();
+    setVideoSource(video, feature.videoUrl, poster);
   } else {
     video.pause();
+    video.onloadeddata = null;
     video.removeAttribute("src");
+    video.removeAttribute("poster");
     video.load();
     video.hidden = true;
     videoEmptyState.hidden = false;
