@@ -694,6 +694,29 @@ button {
   box-shadow: var(--shadow);
 }
 
+.video-empty-state {
+  min-height: min(78vh, 900px);
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  padding: 32px;
+  color: var(--muted);
+  text-align: center;
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.video-empty-state strong {
+  color: var(--text);
+  font-size: 18px;
+}
+
+.video-empty-state span {
+  font-size: 14px;
+}
+
 .feature-copy {
   display: grid;
   gap: 16px;

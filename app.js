@@ -1150,8 +1150,20 @@ function renderFeaturePage(data, project, feature) {
   backLink.textContent = module ? "返回模块" : "返回项目";
 
   const video = document.getElementById("feature-video");
-  video.src = feature.videoUrl || project.videoUrl || DEFAULT_VIDEO;
-  video.poster = poster;
+  const videoEmptyState = document.getElementById("feature-video-empty");
+  if (feature.videoUrl) {
+    video.hidden = false;
+    videoEmptyState.hidden = true;
+    video.src = feature.videoUrl;
+    video.poster = poster;
+    video.load();
+  } else {
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+    video.hidden = true;
+    videoEmptyState.hidden = false;
+  }
 
   document.getElementById("feature-title").textContent = feature.name;
   document.getElementById("feature-intro").textContent = feature.intro;
