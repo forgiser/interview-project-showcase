@@ -1,0 +1,171 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>郭富强-项目演示 · 项目作品集</title>
+    <meta
+      name="description"
+      content="面试项目作品集，支持项目总览、详情页、功能亮点和视频预览。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-canvas" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <div id="app">
+      <!-- Loading State -->
+      <div id="loading-view" class="view loading-shell">
+        <div class="loading-card">Loading...</div>
+      </div>
+
+      <!-- Error State -->
+      <div id="error-view" class="view loading-shell" style="display: none">
+        <div class="loading-card" id="error-message"></div>
+      </div>
+
+      <!-- Home View -->
+      <div
+        id="home-view"
+        class="view app-shell home-shell"
+        style="display: none"
+      >
+        <header class="topbar">
+          <div class="brand">
+            <div class="logo-mark">PS</div>
+            <div>
+              <strong id="home-site-name"></strong>
+              <span id="home-site-tagline"></span>
+            </div>
+          </div>
+          <div class="header-actions">
+            <div class="count-badge" id="home-stats"></div>
+          </div>
+        </header>
+
+        <section class="section-head">
+          <div>
+            <p class="eyebrow">项目列表</p>
+            <h2>点击卡片进入详情页</h2>
+          </div>
+          <span class="section-hint" id="home-project-count"></span>
+        </section>
+
+        <section class="gallery" id="project-gallery"></section>
+      </div>
+
+      <!-- Project Detail View -->
+      <div
+        id="project-view"
+        class="view app-shell project-view"
+        style="display: none"
+      >
+        <header class="topbar">
+          <div class="brand">
+            <div class="logo-mark">PS</div>
+            <div>
+              <strong id="project-site-name"></strong>
+              <span>项目详情</span>
+            </div>
+          </div>
+          <div class="header-actions">
+            <a class="ghost-link" href="#/">返回首页</a>
+          </div>
+        </header>
+
+        <section class="detail-hero">
+          <div class="detail-copy">
+            <a class="back-link" href="#/">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 18 9 12l6-6" />
+              </svg>
+              <span>返回项目墙</span>
+            </a>
+            <p class="eyebrow" id="project-tag"></p>
+            <h1 id="project-name"></h1>
+            <p class="detail-intro" id="project-intro"></p>
+            <div class="facts-row" id="project-facts"></div>
+          </div>
+          <div class="detail-visual">
+            <div class="detail-cover">
+              <img id="project-cover-img" src="" alt="" />
+            </div>
+            <video
+              class="detail-video"
+              id="project-video"
+              controls
+              playsinline
+            ></video>
+          </div>
+        </section>
+
+        <section class="section-head">
+          <div>
+            <p class="eyebrow">模块树</p>
+            <h2>展开模块，再点开功能查看详情</h2>
+          </div>
+          <span class="section-hint" id="project-feature-count"></span>
+        </section>
+
+        <section class="module-tree" id="module-tree"></section>
+      </div>
+
+      <!-- Feature Detail View -->
+      <div
+        id="feature-view"
+        class="view app-shell feature-view"
+        style="display: none"
+      >
+        <header class="topbar">
+          <div class="brand">
+            <div class="logo-mark">PS</div>
+            <div>
+              <strong id="feature-site-name"></strong>
+              <span>功能详情</span>
+            </div>
+          </div>
+          <div class="header-actions">
+            <a class="ghost-link" id="feature-back-to-project" href="#"
+              >返回项目详情</a
+            >
+            <a class="ghost-link accent" href="#/">返回首页</a>
+          </div>
+        </header>
+
+        <section class="feature-layout">
+          <div class="feature-stage">
+            <video
+              class="feature-video"
+              id="feature-video"
+              controls
+              autoplay
+              playsinline
+            ></video>
+          </div>
+
+          <aside class="feature-copy">
+            <p class="eyebrow">功能亮点</p>
+            <p class="feature-module" id="feature-module"></p>
+            <h1 id="feature-title"></h1>
+            <p class="feature-intro" id="feature-intro"></p>
+            <p class="feature-highlight" id="feature-highlight"></p>
+            <ul class="bullet-list" id="feature-bullets"></ul>
+          </aside>
+        </section>
+      </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
