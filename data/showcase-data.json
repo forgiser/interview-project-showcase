@@ -6,13 +6,193 @@
   },
   "projects": [
     {
-      "id": "geo-aiops-platform",
+      "id": "project-3",
+      "slug": "meas",
+      "name": "MEAS污染排放专家标准系统",
+      "intro": "在环保异常检测场景下，为解决时序标注数据稀缺和人工研判效率低的问题，搭建智能检测与专家标注一体化平台",
+      "cover": {
+        "title": "MEAS污染排放专家标准系统",
+        "subtitle": "",
+        "theme": {
+          "from": "#0f172a",
+          "to": "#0f766e",
+          "accent": "#22c55e"
+        }
+      },
+      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
+      "tags": [
+        "MEAS标准",
+        "污染检测"
+      ],
+      "facts": [
+        {
+          "label": "模块数",
+          "value": "1 个"
+        },
+        {
+          "label": "功能数",
+          "value": "1 个"
+        }
+      ],
+      "modules": [
+        {
+          "id": "module-9",
+          "slug": "preview",
+          "name": "MEAS污染标注预览",
+          "intro": "全流程预览MEAS工作，可以实现时序数据特征检测，并支持在线标注",
+          "highlight": "",
+          "poster": {
+            "title": "MEAS污染标注预览",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-20",
+              "slug": "污染标注全流程演示",
+              "name": "污染标注全流程演示",
+              "intro": "设计“诊断任务创建-时序特征检测-专家标注-专家审核-标注数据集入库”标注流程，产出海量时序数据标注结果，用于AI训练",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "污染标注全流程演示",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "slug": "jepi-platform",
+      "name": "江苏省生态“绿智”知识中台",
+      "intro": "隶属省部级项目：固定污染源智能监管，为了应对环保政策查询与答疑场景，负责搭建政策知识中台，支持政策解读、条款检索、依据溯源等多类问答场景，目前已经供20+厅内人员使用",
+      "cover": {
+        "title": "江苏省生态“绿智”知识中台",
+        "subtitle": "",
+        "theme": {
+          "from": "#0f172a",
+          "to": "#0f766e",
+          "accent": "#22c55e"
+        }
+      },
+      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
+      "tags": [
+        "Agentic RAG",
+        "政策解读",
+        "依据溯源"
+      ],
+      "facts": [
+        {
+          "label": "模块数",
+          "value": "2 个"
+        },
+        {
+          "label": "功能数",
+          "value": "2 个"
+        }
+      ],
+      "modules": [
+        {
+          "id": "module-7",
+          "slug": "knowledge-pares",
+          "name": "知识治理",
+          "intro": "从环保厅网站爬取政策文件，覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于MinerU针对附件进行结构化处理，解析成功率达95%，并基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库。",
+          "highlight": "",
+          "poster": {
+            "title": "知识治理",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-17",
+              "slug": "环保政策文件治理",
+              "name": "环保政策文件治理",
+              "intro": "覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库，实习政策文件在线查看",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
+              "bullets": [
+                "MinerU文档解析",
+                "知识库构建",
+                "政策中心"
+              ],
+              "poster": {
+                "title": "环保政策文件治理",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-8",
+          "slug": "document-search-qa",
+          "name": "RAG问答",
+          "intro": "　基于Agentic RAG架构，由智能体自主识别用户意图，基于动态路由检索与多路检索融合排序，实现高召回的AI问答",
+          "highlight": "",
+          "poster": {
+            "title": "RAG问答",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-18",
+              "slug": "pocity-qa",
+              "name": "政策查询问答",
+              "intro": "基于RAG索引业务文件，并提供文档链接",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/rag%E9%97%AE%E7%AD%94/%E6%94%BF%E7%AD%96%E6%9F%A5%E8%AF%A2%E9%97%AE%E7%AD%94/20260826/1787730288687-AI.mp4",
+              "bullets": [
+                "RAG索引",
+                "知识检索"
+              ],
+              "poster": {
+                "title": "政策查询问答",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-1",
       "slug": "geo-aiops-platform",
       "name": "GeoAIOps 地理 AI 运维平台",
       "intro": "国家重点研发计划“地理空间智能核心技术与软件系统”项目。面向未来城市地理空间数据、模型资产化管理与快速应用搭建需求，构建数据、模型、知识、AI 应用一体化的地理智能运维与应用构建平台，并通过智能对话组件打通资源接入、智能编排与业务交互闭环。",
       "cover": {
         "title": "GeoAIOps",
-        "subtitle": "数据 / 模型 / 工作流 / 智能对话",
+        "subtitle": "数据 / 模型 / 知识 / Agent / 工作流 / 智能对话",
         "theme": {
           "from": "#0f172a",
           "to": "#0f766e",
@@ -20,281 +200,518 @@
         }
       },
       "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E5%9F%8E%E5%B8%82%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.mp4",
-      "tags": ["GeoAI", "AIOps", "Vue Flow", "Spring AI Alibaba"],
+      "tags": [
+        "GeoAI",
+        "AIOps",
+        "Vue Flow",
+        "Spring AI Alibaba"
+      ],
       "facts": [
-        { "label": "模块数", "value": "5 个" },
-        { "label": "功能数", "value": "15 个" },
-        { "label": "数据资产", "value": "2000+" },
-        { "label": "模型工具", "value": "300+" }
+        {
+          "label": "模块数",
+          "value": "6 个"
+        },
+        {
+          "label": "功能数",
+          "value": "18 个"
+        }
       ],
       "modules": [
         {
-          "id": "geo-aiops-access",
+          "id": "module-2",
+          "slug": "city-data-management",
+          "name": "城市数据资产管理",
+          "intro": "实现矢量、栅格、文档等多源城市数据全周期管理，支持 10GB+ 单文件稳定上传，累计管理 2000+ 数据资产。",
+          "highlight": "面向城市数据集成综合平台",
+          "poster": {
+            "title": "城市数据资产管理",
+            "subtitle": "面向城市数据集成综合平台",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-2",
+              "slug": "vector-data-upload",
+              "name": "矢量数据上传",
+              "intro": "支持三种方式的城市矢量数据上传、解析与资产入库，形成统一的数据接入入口。",
+              "highlight": "覆盖矢量文件接入、解析入库和资产登记流程。",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E7%9F%A2%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%BC%A0.mp4",
+              "bullets": [
+                "矢量文件接入",
+                "数据解析入库",
+                "统一资产登记"
+              ],
+              "poster": {
+                "title": "矢量数据上传",
+                "subtitle": "覆盖矢量文件接入、解析入库和资产登记流程。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-23",
+              "slug": "database-import",
+              "name": "数据库资源接入",
+              "intro": "支持将数据库资源（PostgreSQL\\MySQL)等集成进当前得到系统中，并支持对具体表格信息、数据信息的预览查看",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/city-data-management/database-import/20260826/1787735253446-video.mp4",
+              "bullets": [
+                "数据库",
+                "资源接入"
+              ],
+              "poster": {
+                "title": "数据库资源接入",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-3",
+              "slug": "raster-data-upload",
+              "name": "栅格数据上传",
+              "intro": "支持大体量栅格数据稳定上传，满足城市遥感与影像类数据资产化管理需求。",
+              "highlight": "面向大体量栅格数据的稳定上传与资产化接入。",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E6%A0%85%E6%A0%BC%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%BC%A0.mp4",
+              "bullets": [
+                "10GB+ 单文件上传",
+                "栅格数据接入",
+                "上传过程稳定控制"
+              ],
+              "poster": {
+                "title": "栅格数据上传",
+                "subtitle": "面向大体量栅格数据的稳定上传与资产化接入。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-4",
+              "slug": "city-data-catalog",
+              "name": "城市数据管理",
+              "intro": "统一管理已接入的城市数据资产，支持分类浏览、资源检索与数据生命周期维护。",
+              "highlight": "统一管理城市数据资产，支持分类浏览、检索与生命周期维护。",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E5%9F%8E%E5%B8%82%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.mp4",
+              "bullets": [
+                "多源数据分类管理",
+                "资源检索与浏览",
+                "数据全周期维护"
+              ],
+              "poster": {
+                "title": "城市数据管理",
+                "subtitle": "统一管理城市数据资产，支持分类浏览、检索与生命周期维护。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-3",
+          "slug": "model-asset-management",
+          "name": "城市模型资产管理",
+          "intro": "支持 API、Docker、MCP 三种城市模型接入方式，累计构建并投入使用 300+ 城市模型工具，同时建立模型监控体系。",
+          "highlight": "支持 API、Docker、MCP 多方式接入城市模型工具，并纳入统一监控。",
+          "poster": {
+            "title": "城市模型资产管理",
+            "subtitle": "支持 API、Docker、MCP 多方式接入城市模型工具，并纳入统一监控。",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-6",
+              "slug": "api-model-onboarding",
+              "name": "API 方式构建模型",
+              "intro": "基于标准规范，通过 API 配置将城市模型封装为平台可调用工具，纳入统一模型资产目录。",
+              "highlight": "通过 API 配置将城市模型封装为平台可调用工具。",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/API%E6%96%B9%E5%BC%8F%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9E%8B.mp4",
+              "bullets": [
+                "API 服务配置",
+                "模型工具封装",
+                "统一资产登记"
+              ],
+              "poster": {
+                "title": "API 方式构建模型",
+                "subtitle": "通过 API 配置将城市模型封装为平台可调用工具。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-21",
+              "slug": "docker-model",
+              "name": "Docker 方式构建模型",
+              "intro": "基于标准的Docker压缩包，定义Dockerfile，设置执行策略，实现Docker沙箱下安全的工具执行",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/model-asset-management/docker-model/20260826/1787735046794-Docker.mp4",
+              "bullets": [
+                "Docker",
+                "模型构建"
+              ],
+              "poster": {
+                "title": "Docker 方式构建模型",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-22",
+              "slug": "mcp-model",
+              "name": "MCP方式构建模型",
+              "intro": "支持基于标准的MCP服务协议，实现模型工具的注册，采用Docker将stdio方式的MCP进行沙箱隔离构建",
+              "highlight": "",
+              "videoUrl": "",
+              "bullets": [
+                "MCP",
+                "模型构建"
+              ],
+              "poster": {
+                "title": "MCP方式构建模型",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-24",
+              "slug": "native-model",
+              "name": "平台内置模型",
+              "intro": "包括沙箱工作区文件操作内置模型工具，数据资源检索模型工具、模型工具资源检索内置工具等，和系统高度相关，辅助各种智能体搭建",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/model-asset-management/native-model/20260826/1787735783885-video.mp4",
+              "bullets": [
+                "内置模型",
+                "沙盒工具箱文件管理"
+              ],
+              "poster": {
+                "title": "平台内置模型",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-25",
+              "slug": "模型工具详情",
+              "name": "模型工具详情",
+              "intro": "支持查看模型工具详情内容，支持监控模型工具执行结果",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/model-asset-management/%E6%A8%A1%E5%9E%8B%E5%B7%A5%E5%85%B7%E8%AF%A6%E6%83%85/20260826/1787735891971-video.mp4",
+              "bullets": [
+                "工具详情",
+                "工具执行监控"
+              ],
+              "poster": {
+                "title": "模型工具详情",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-5",
+          "slug": "agent-and-geochatbox",
+          "name": "城市智能体编排管理",
+          "intro": "基于 ReAct 范式实现智能体编排面板，支持城市领域智能体应用的构建",
+          "highlight": "",
+          "poster": {
+            "title": "城市智能体编排管理",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-13",
+              "slug": "react-agent-orchestration",
+              "name": "ReAct 智能体编排",
+              "intro": "支持 Prompt 配置、工具与知识库挂载、记忆策略设计，组织智能体完成推理与工具调用。",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/agent-and-geochatbox/react-agent-orchestration/20260826/1787737151367-video.mp4",
+              "bullets": [
+                "Prompt 配置",
+                "工具与知识库挂载",
+                "记忆策略设计"
+              ],
+              "poster": {
+                "title": "ReAct 智能体编排",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-14",
+              "slug": "geochatbox-streaming",
+              "name": "GeoChatBox 流式问答",
+              "intro": "实现流式对话、断点续接和大结果分块传输，支持在复杂地理智能任务中暂停并恢复对话。",
+              "highlight": "解决长耗时任务与大结果交互过程中的连续性问题。",
+              "videoUrl": "",
+              "bullets": [
+                "流式对话输出",
+                "断点续接与暂停恢复",
+                "大结果分块传输"
+              ],
+              "poster": {
+                "title": "GeoChatBox 流式问答",
+                "subtitle": "解决长耗时任务与大结果交互过程中的连续性问题。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-15",
+              "slug": "structured-result-rendering",
+              "name": "结构化结果渲染",
+              "intro": "将工具调用和知识检索结果进行结构化展示，集成 10+ 自定义渲染组件，覆盖地图、自定义表格等地理场景。",
+              "highlight": "",
+              "videoUrl": "",
+              "bullets": [
+                "工具与知识结果结构化展示",
+                "10+ 自定义渲染组件",
+                "地图与自定义表格支持"
+              ],
+              "poster": {
+                "title": "结构化结果渲染",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-4",
+          "slug": "ai-workflow-engine",
+          "name": "城市工作流编排管理",
+          "intro": "基于 Vue Flow 与 Spring AI Alibaba 构建可视化工作流引擎，集成 LLM、RAG、工具、分支等 15+ 类节点，支持并行执行、上下文传递和断点调试，累计沉淀 50+ 工作流模板。",
+          "highlight": "从节点编排到运行调试，支撑快速搭建地理工作流应用。",
+          "poster": {
+            "title": "城市工作流编排管理",
+            "subtitle": "从节点编排到运行调试，支撑快速搭建地理工作流应用。",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-10",
+              "slug": "visual-workflow-design",
+              "name": "可视化工作流编排",
+              "intro": "基于 Vue Flow 搭建节点画布，支持将 LLM、RAG、工具、分支等10+类节点组合成可执行流程。",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/ai-workflow-engine/visual-workflow-design/20260826/1787740984859-video.mp4",
+              "bullets": [
+                "Vue Flow 节点画布",
+                "LLM / RAG / 工具节点",
+                "条件分支编排"
+              ],
+              "poster": {
+                "title": "可视化工作流编排",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-12",
+              "slug": "sample-workflow",
+              "name": "简单工作流编排与执行",
+              "intro": "实现简单的工作流编排和执行（不包含分支），示例为数据智能检索工作流，可以实现对数据资源的智能的检索",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/ai-workflow-engine/sample-workflow/20260826/1787741096970-video.mp4",
+              "bullets": [
+                "简单工作流",
+                "工作流调试",
+                "快速应用搭建"
+              ],
+              "poster": {
+                "title": "简单工作流编排与执行",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-6",
+          "slug": "geo-ai-true-project",
+          "name": "真实案例应用",
+          "intro": "GeoAIOps在城市治理领域中的真实应用",
+          "highlight": "",
+          "poster": {
+            "title": "真实案例应用",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-19",
+              "slug": "agent-deletor",
+              "name": "异常排放智能检测智能体",
+              "intro": "本工作围绕江苏省环保厅污染排放异常检测项目，通过复杂的智能体编排，将ChatBox交互组件与专家知识库、异常检测算子、真实数据API集成，实现从自然语言交互到污染监控数据自动分析、异常识别、溯源排查及处置方案生成的全流程智能化闭环，有效提升污染排放监管的实时性、精准度与决策效率。",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/geo-ai-true-project/agent-deletor/20260826/1787731742426-GeoAIOps.mp4",
+              "bullets": [
+                "异常检测算子",
+                "专家经验知识库",
+                "环保监管"
+              ],
+              "poster": {
+                "title": "异常排放智能检测智能体",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-16",
+              "slug": "ni-fei-yi",
+              "name": "泥非易AI ChatBox集成应用",
+              "intro": "本工作围绕香港物料运输项目，通过集成真实地图路径规划工具、物流配送业务真实AP，将ChatBox交互组件与后端调度引擎打通，实现基于实时路况和物料约束（重量、尺寸、时间窗等）的智能路径规划与配载方案生成，并将结果渲染至地图组件进行可视化展示，同时支持订单状态同步与异常告警，有效提升运输调度效率与决策精准度。",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/geo-ai-true-project/ni-fei-yi/20260826/1787729410910-AIChatbox20260513.mp4",
+              "bullets": [
+                "API集成",
+                "路径规划",
+                "物料调度"
+              ],
+              "poster": {
+                "title": "泥非易AI ChatBox集成应用",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-1",
           "slug": "platform-access",
           "name": "平台访问与工作台",
           "intro": "提供统一的用户认证与平台入口，承接数据、模型、知识和 AI 应用四类核心能力。",
           "highlight": "从统一登录进入地理智能运维工作台。",
           "poster": {
             "title": "平台访问与工作台",
-            "subtitle": "统一登录与能力入口",
-            "theme": { "from": "#0f172a", "to": "#1e3a8a", "accent": "#38bdf8" }
+            "subtitle": "从统一登录进入地理智能运维工作台。",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
           },
           "features": [
             {
-              "id": "geo-aiops-system-login",
+              "id": "feature-1",
               "slug": "system-login",
               "name": "系统登录",
-              "intro": "通过统一登录进入 GeoAIOps 平台，进入后可访问城市数据、模型资产和 AI 应用构建能力。",
-              "highlight": "已有演示视频，展示平台登录与工作台入口。",
+              "intro": "通过统一登录进入 GeoAIOps 平台，基于RBAC的权限设计实现资源的控制，进入后可访问城市数据、模型资产和 AI 应用构建能力。",
+              "highlight": "统一登录进入 GeoAIOps 平台工作台，承接数据、模型、知识与 AI 应用能力。",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E7%B3%BB%E7%BB%9F%E7%99%BB%E5%BD%95.mp4",
+              "bullets": [
+                "统一认证入口",
+                "平台工作台",
+                "核心能力导航"
+              ],
               "poster": {
                 "title": "系统登录",
-                "subtitle": "GeoAIOps 平台入口",
-                "theme": { "from": "#0f172a", "to": "#1e3a8a", "accent": "#38bdf8" }
-              },
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E7%B3%BB%E7%BB%9F%E7%99%BB%E5%BD%95.mp4",
-              "bullets": ["统一认证入口", "平台工作台", "核心能力导航"]
-            }
-          ]
-        },
-        {
-          "id": "geo-aiops-city-data",
-          "slug": "city-data-management",
-          "name": "城市数据资产管理",
-          "intro": "实现矢量、栅格、文档等多源城市数据全周期管理，支持 10GB+ 单文件稳定上传，累计管理 2000+ 数据资产。",
-          "highlight": "已有矢量上传、栅格上传和城市数据管理演示素材。",
-          "poster": {
-            "title": "城市数据资产管理",
-            "subtitle": "接入 / 上传 / 管理",
-            "theme": { "from": "#064e3b", "to": "#0f766e", "accent": "#a3e635" }
-          },
-          "features": [
-            {
-              "id": "geo-aiops-vector-upload",
-              "slug": "vector-data-upload",
-              "name": "矢量数据上传",
-              "intro": "支持城市矢量数据上传、解析与资产入库，形成统一的数据接入入口。",
-              "highlight": "已有演示视频，展示矢量数据上传流程。",
-              "poster": {
-                "title": "矢量数据上传",
-                "subtitle": "上传 / 解析 / 入库",
-                "theme": { "from": "#065f46", "to": "#0f766e", "accent": "#5eead4" }
-              },
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E7%9F%A2%E9%87%8F%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%BC%A0.mp4",
-              "bullets": ["矢量文件接入", "数据解析入库", "统一资产登记"]
+                "subtitle": "统一登录进入 GeoAIOps 平台工作台，承接数据、模型、知识与 AI 应用能力。",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
             },
             {
-              "id": "geo-aiops-raster-upload",
-              "slug": "raster-data-upload",
-              "name": "栅格数据上传",
-              "intro": "支持大体量栅格数据稳定上传，满足城市遥感与影像类数据资产化管理需求。",
-              "highlight": "已有演示视频，展示栅格数据上传流程。",
+              "id": "feature-26",
+              "slug": "geo-chat-box-resource",
+              "name": "GeoChatBox资源获取",
+              "intro": "基于RBAC权限管理方式，实现基于用户级的城市资源（AI应用、数据、模型、知识）的获取",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/platform-access/geo-chat-box-resource/20260826/1787738733844-GeoChatBox.mp4",
+              "bullets": [
+                "RBAC",
+                "GeoChatBox"
+              ],
               "poster": {
-                "title": "栅格数据上传",
-                "subtitle": "大文件稳定上传",
-                "theme": { "from": "#155e75", "to": "#0f766e", "accent": "#67e8f9" }
-              },
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E6%A0%85%E6%A0%BC%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%BC%A0.mp4",
-              "bullets": ["10GB+ 单文件上传", "栅格数据接入", "上传过程稳定控制"]
-            },
-            {
-              "id": "geo-aiops-data-management",
-              "slug": "city-data-catalog",
-              "name": "城市数据管理",
-              "intro": "统一管理已接入的城市数据资产，支持分类浏览、资源检索与数据生命周期维护。",
-              "highlight": "已有演示视频，展示城市数据资产管理界面。",
-              "poster": {
-                "title": "城市数据管理",
-                "subtitle": "数据资产统一管理",
-                "theme": { "from": "#164e63", "to": "#0f766e", "accent": "#facc15" }
-              },
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E5%9F%8E%E5%B8%82%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.mp4",
-              "bullets": ["多源数据分类管理", "资源检索与浏览", "数据全周期维护"]
-            },
-            {
-              "id": "geo-aiops-document-assets",
-              "slug": "document-assets",
-              "name": "文档知识资产",
-              "intro": "将项目文档与业务资料纳入统一资产体系，为知识检索和智能问答提供数据基础。",
-              "highlight": "支持矢量、栅格、文档等多种城市资源的统一管理。",
-              "poster": {
-                "title": "文档知识资产",
-                "subtitle": "文档接入与知识沉淀",
-                "theme": { "from": "#365314", "to": "#0f766e", "accent": "#bef264" }
-              },
-              "bullets": ["文档资源接入", "知识资产沉淀", "支撑检索问答"]
-            }
-          ]
-        },
-        {
-          "id": "geo-aiops-model-assets",
-          "slug": "model-asset-management",
-          "name": "城市模型资产管理",
-          "intro": "支持 API、Docker、MCP 三种城市模型接入方式，累计构建并投入使用 300+ 城市模型工具，同时建立模型监控体系。",
-          "highlight": "已有 API 方式构建模型的演示素材。",
-          "poster": {
-            "title": "城市模型资产管理",
-            "subtitle": "API / Docker / MCP",
-            "theme": { "from": "#312e81", "to": "#1d4ed8", "accent": "#c4b5fd" }
-          },
-          "features": [
-            {
-              "id": "geo-aiops-api-model",
-              "slug": "api-model-onboarding",
-              "name": "API 方式构建模型",
-              "intro": "通过 API 配置将城市模型封装为平台可调用工具，纳入统一模型资产目录。",
-              "highlight": "已有演示视频，展示 API 方式的模型构建流程。",
-              "poster": {
-                "title": "API 方式构建模型",
-                "subtitle": "服务封装为模型工具",
-                "theme": { "from": "#312e81", "to": "#1d4ed8", "accent": "#a5b4fc" }
-              },
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/API%E6%96%B9%E5%BC%8F%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%9E%8B.mp4",
-              "bullets": ["API 服务配置", "模型工具封装", "统一资产登记"]
-            },
-            {
-              "id": "geo-aiops-docker-model",
-              "slug": "docker-model-onboarding",
-              "name": "Docker 模型接入",
-              "intro": "支持容器化城市模型接入，统一管理运行依赖、服务地址与调用配置。",
-              "highlight": "覆盖异构模型服务的容器化接入场景。",
-              "poster": {
-                "title": "Docker 模型接入",
-                "subtitle": "容器化模型服务管理",
-                "theme": { "from": "#1e3a8a", "to": "#312e81", "accent": "#818cf8" }
-              },
-              "bullets": ["容器服务接入", "运行依赖管理", "调用配置统一"]
-            },
-            {
-              "id": "geo-aiops-mcp-model",
-              "slug": "mcp-tool-integration",
-              "name": "MCP 工具接入",
-              "intro": "通过 MCP 协议接入城市模型工具，使智能体可按需发现并调用模型能力。",
-              "highlight": "将城市模型能力纳入智能体可调用工具集。",
-              "poster": {
-                "title": "MCP 工具接入",
-                "subtitle": "协议化模型能力接入",
-                "theme": { "from": "#1e1b4b", "to": "#1d4ed8", "accent": "#60a5fa" }
-              },
-              "bullets": ["MCP 协议接入", "工具发现调用", "智能体能力挂载"]
-            },
-            {
-              "id": "geo-aiops-model-observability",
-              "slug": "model-observability",
-              "name": "模型监控体系",
-              "intro": "围绕模型调用与运行状态建立监控能力，为城市模型工具的稳定运行和问题定位提供支撑。",
-              "highlight": "服务于 300+ 城市模型工具的可观测运行。",
-              "poster": {
-                "title": "模型监控体系",
-                "subtitle": "运行状态与调用观测",
-                "theme": { "from": "#172554", "to": "#312e81", "accent": "#fbbf24" }
-              },
-              "bullets": ["模型调用监控", "运行状态观测", "异常问题定位"]
-            }
-          ]
-        },
-        {
-          "id": "geo-aiops-workflows",
-          "slug": "ai-workflow-engine",
-          "name": "AI 应用工作流引擎",
-          "intro": "基于 Vue Flow 与 Spring AI Alibaba 构建可视化工作流引擎，集成 LLM、RAG、工具、分支等 15+ 类节点，支持并行执行、上下文传递和断点调试，累计沉淀 50+ 工作流模板。",
-          "highlight": "从节点编排到运行调试，支撑快速搭建地理 AI 应用。",
-          "poster": {
-            "title": "AI 应用工作流引擎",
-            "subtitle": "编排 / 执行 / 调试",
-            "theme": { "from": "#7c2d12", "to": "#9a3412", "accent": "#fdba74" }
-          },
-          "features": [
-            {
-              "id": "geo-aiops-workflow-design",
-              "slug": "visual-workflow-design",
-              "name": "可视化工作流编排",
-              "intro": "基于 Vue Flow 搭建节点画布，支持将 LLM、RAG、工具和分支节点组合成可执行流程。",
-              "highlight": "通过图形化编排降低地理 AI 应用构建门槛。",
-              "poster": {
-                "title": "可视化工作流编排",
-                "subtitle": "15+ 类节点编排",
-                "theme": { "from": "#7c2d12", "to": "#9a3412", "accent": "#fdba74" }
-              },
-              "bullets": ["Vue Flow 节点画布", "LLM / RAG / 工具节点", "条件分支编排"]
-            },
-            {
-              "id": "geo-aiops-workflow-runtime",
-              "slug": "workflow-runtime-debugging",
-              "name": "工作流执行与调试",
-              "intro": "支持并行执行、节点间上下文传递和断点调试，帮助快速定位流程运行问题。",
-              "highlight": "兼顾复杂流程的执行效率与可调试性。",
-              "poster": {
-                "title": "工作流执行与调试",
-                "subtitle": "并行执行与断点调试",
-                "theme": { "from": "#9a3412", "to": "#431407", "accent": "#fed7aa" }
-              },
-              "bullets": ["并行节点执行", "上下文传递", "断点调试定位"]
-            },
-            {
-              "id": "geo-aiops-workflow-templates",
-              "slug": "workflow-templates",
-              "name": "工作流模板库",
-              "intro": "沉淀 50+ 工作流模板，支持在标准流程基础上快速复用和搭建地理智能应用。",
-              "highlight": "将可复用编排经验转化为平台资产。",
-              "poster": {
-                "title": "工作流模板库",
-                "subtitle": "50+ 模板资产沉淀",
-                "theme": { "from": "#78350f", "to": "#7c2d12", "accent": "#fde68a" }
-              },
-              "bullets": ["50+ 流程模板", "标准能力复用", "快速应用搭建"]
-            }
-          ]
-        },
-        {
-          "id": "geo-aiops-agent-chat",
-          "slug": "agent-and-geochatbox",
-          "name": "智能体与 GeoChatBox",
-          "intro": "基于 ReAct 范式实现智能体编排面板，并开发 GeoChatBox 流式问答组件，支持工具与知识检索结果的结构化展示。",
-          "highlight": "把模型、工具、知识库和地理可视化结果连接到统一对话体验中。",
-          "poster": {
-            "title": "智能体与 GeoChatBox",
-            "subtitle": "推理 / 调用 / 流式交互",
-            "theme": { "from": "#9d174d", "to": "#7e22ce", "accent": "#f9a8d4" }
-          },
-          "features": [
-            {
-              "id": "geo-aiops-agent-orchestration",
-              "slug": "react-agent-orchestration",
-              "name": "ReAct 智能体编排",
-              "intro": "支持 Prompt 配置、工具与知识库挂载、记忆策略设计，组织智能体完成推理与工具调用。",
-              "highlight": "面向地理智能任务的可配置智能体构建。",
-              "poster": {
-                "title": "ReAct 智能体编排",
-                "subtitle": "Prompt / 工具 / 记忆",
-                "theme": { "from": "#701a75", "to": "#7e22ce", "accent": "#e9d5ff" }
-              },
-              "bullets": ["Prompt 配置", "工具与知识库挂载", "记忆策略设计"]
-            },
-            {
-              "id": "geo-aiops-geochat-streaming",
-              "slug": "geochatbox-streaming",
-              "name": "GeoChatBox 流式问答",
-              "intro": "实现流式对话、断点续接和大结果分块传输，支持在复杂地理智能任务中暂停并恢复对话。",
-              "highlight": "解决长耗时任务与大结果交互过程中的连续性问题。",
-              "poster": {
-                "title": "GeoChatBox 流式问答",
-                "subtitle": "流式传输与断点续接",
-                "theme": { "from": "#831843", "to": "#7e22ce", "accent": "#f0abfc" }
-              },
-              "bullets": ["流式对话输出", "断点续接与暂停恢复", "大结果分块传输"]
-            },
-            {
-              "id": "geo-aiops-geochat-renderers",
-              "slug": "structured-result-rendering",
-              "name": "结构化结果渲染",
-              "intro": "将工具调用和知识检索结果进行结构化展示，集成 10+ 自定义渲染组件，覆盖地图、自定义表格等地理场景。",
-              "highlight": "让文本问答能够承载可阅读、可操作的空间分析结果。",
-              "poster": {
-                "title": "结构化结果渲染",
-                "subtitle": "地图 / 表格 / 工具结果",
-                "theme": { "from": "#4a044e", "to": "#9d174d", "accent": "#fbcfe8" }
-              },
-              "bullets": ["工具与知识结果结构化展示", "10+ 自定义渲染组件", "地图与自定义表格支持"]
+                "title": "GeoChatBox资源获取",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
             }
           ]
         }

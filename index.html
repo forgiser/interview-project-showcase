@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260826-3" />
   </head>
   <body>
     <div class="bg-canvas" aria-hidden="true">
@@ -101,15 +101,25 @@
             <div class="detail-cover">
               <img id="project-cover-img" src="" alt="" />
             </div>
-            <video
-              class="detail-video"
-              id="project-video"
-              controls
-              autoplay
-              muted
-              preload="auto"
-              playsinline
-            ></video>
+            <div class="video-frame detail-video-frame" id="project-video-frame">
+              <video
+                class="detail-video"
+                id="project-video"
+                controls
+                controlsList="nofullscreen"
+                autoplay
+                muted
+                preload="auto"
+                playsinline
+              ></video>
+              <button
+                class="video-fullscreen-button"
+                type="button"
+                data-fullscreen-target="project-video-frame"
+              >
+                全屏
+              </button>
+            </div>
           </div>
         </section>
 
@@ -147,11 +157,12 @@
         </header>
 
         <section class="feature-layout">
-          <div class="feature-stage">
+          <div class="feature-stage video-frame" id="feature-video-frame">
             <video
               class="feature-video"
               id="feature-video"
               controls
+              controlsList="nofullscreen"
               autoplay
               muted
               preload="auto"
@@ -161,6 +172,13 @@
               <strong>演示视频暂未上传</strong>
               <span>当前展示功能说明与实现亮点。</span>
             </div>
+            <button
+              class="video-fullscreen-button"
+              type="button"
+              data-fullscreen-target="feature-video-frame"
+            >
+              全屏
+            </button>
           </div>
 
           <aside class="feature-copy">
@@ -175,6 +193,23 @@
       </div>
     </div>
 
-    <script type="module" src="./app.js"></script>
+    <div class="cinema-overlay" id="video-cinema" hidden>
+      <div class="cinema-toolbar">
+        <strong id="cinema-title">视频预览</strong>
+        <button class="cinema-close" type="button" id="cinema-close">退出</button>
+      </div>
+      <video
+        class="cinema-video"
+        id="cinema-video"
+        controls
+        controlsList="nofullscreen"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+    </div>
+
+    <script type="module" src="./app.js?v=20260826-3"></script>
   </body>
 </html>

@@ -590,9 +590,17 @@ const ICONS = {
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18 9 12l6-6"/></svg>',
 };
 
+function decodeRoutePart(value = "") {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 function parseRoute() {
   const raw = location.hash.replace(/^#\/?/, "");
-  const parts = raw.split("/").filter(Boolean);
+  const parts = raw.split("/").filter(Boolean).map(decodeRoutePart);
 
   if (parts[0] === "project" && parts[1]) {
     if (parts[2] === "module" && parts[3]) {
@@ -950,7 +958,7 @@ function createFeatureCard(project, feature, isActive) {
 
   const chip = document.createElement("div");
   chip.className = "feature-chip";
-  chip.innerHTML = `${renderIcon("play")} <span>查看亮点</span>`;
+  chip.innerHTML = `${renderIcon("play")} <span>查看详情</span>`;
 
   media.appendChild(img);
   media.appendChild(chip);
@@ -964,11 +972,13 @@ function createFeatureCard(project, feature, isActive) {
   const strong = document.createElement("strong");
   strong.textContent = feature.name;
 
-  const span = document.createElement("span");
-  span.textContent = feature.highlight || "功能亮点";
-
   head.appendChild(strong);
-  head.appendChild(span);
+
+  if (feature.highlight) {
+    const span = document.createElement("span");
+    span.textContent = feature.highlight;
+    head.appendChild(span);
+  }
 
   const p = document.createElement("p");
   p.textContent = feature.intro;
@@ -1138,6 +1148,46 @@ function setVideoSource(video, source, fallbackPoster) {
   video.load();
 }
 
+function openCinema(frame) {
+  const sourceVideo = frame.querySelector("video");
+  const cinema = document.getElementById("video-cinema");
+  const cinemaVideo = document.getElementById("cinema-video");
+  const cinemaTitle = document.getElementById("cinema-title");
+  if (!sourceVideo?.currentSrc && !sourceVideo?.src) return;
+
+  const currentTime = sourceVideo.currentTime || 0;
+  cinemaTitle.textContent =
+    document.getElementById("feature-title")?.textContent ||
+    document.getElementById("project-name")?.textContent ||
+    "视频预览";
+  cinema.hidden = false;
+  document.body.classList.add("cinema-open");
+
+  cinemaVideo.poster = sourceVideo.poster || "";
+  cinemaVideo.muted = sourceVideo.muted;
+  cinemaVideo.src = sourceVideo.currentSrc || sourceVideo.src;
+  cinemaVideo.onloadedmetadata = () => {
+    if (Number.isFinite(currentTime) && currentTime > 0) {
+      cinemaVideo.currentTime = Math.min(currentTime, cinemaVideo.duration || currentTime);
+    }
+    cinemaVideo.play().catch(() => {});
+  };
+  cinemaVideo.load();
+}
+
+function closeCinema() {
+  const cinema = document.getElementById("video-cinema");
+  const cinemaVideo = document.getElementById("cinema-video");
+  if (!cinema || cinema.hidden) return;
+
+  cinemaVideo.pause();
+  cinemaVideo.removeAttribute("src");
+  cinemaVideo.removeAttribute("poster");
+  cinemaVideo.load();
+  cinema.hidden = true;
+  document.body.classList.remove("cinema-open");
+}
+
 function renderFeaturePage(data, project, feature) {
   showView("feature-view");
 
@@ -1167,6 +1217,9 @@ function renderFeaturePage(data, project, feature) {
   if (feature.videoUrl) {
     video.hidden = false;
     videoEmptyState.hidden = true;
+    document
+      .querySelector('[data-fullscreen-target="feature-video-frame"]')
+      ?.removeAttribute("hidden");
     setVideoSource(video, feature.videoUrl, poster);
   } else {
     video.pause();
@@ -1176,6 +1229,9 @@ function renderFeaturePage(data, project, feature) {
     video.load();
     video.hidden = true;
     videoEmptyState.hidden = false;
+    document
+      .querySelector('[data-fullscreen-target="feature-video-frame"]')
+      ?.setAttribute("hidden", "");
   }
 
   document.getElementById("feature-title").textContent = feature.name;
@@ -1266,6 +1322,19 @@ function setupEvents() {
   window.addEventListener("hashchange", () => {
     state.route = parseRoute();
     render();
+  });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-fullscreen-target]");
+    if (!button) return;
+
+    const target = document.getElementById(button.dataset.fullscreenTarget);
+    if (target) openCinema(target);
+  });
+
+  document.getElementById("cinema-close")?.addEventListener("click", closeCinema);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeCinema();
   });
 
   document.addEventListener("mousemove", syncCursor);
