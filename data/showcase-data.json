@@ -633,7 +633,7 @@
             {
               "id": "feature-16",
               "slug": "ni-fei-yi",
-              "name": "泥非易AI ChatBox集成应用",
+              "name": "泥飞易AI ChatBox集成应用",
               "intro": "本工作围绕香港物料运输项目，通过集成真实地图路径规划工具、物流配送业务真实AP，将ChatBox交互组件与后端调度引擎打通，实现基于实时路况和物料约束（重量、尺寸、时间窗等）的智能路径规划与配载方案生成，并将结果渲染至地图组件进行可视化展示，同时支持订单状态同步与异常告警，有效提升运输调度效率与决策精准度。",
               "highlight": "",
               "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/geo-ai-true-project/ni-fei-yi/20260826/1787729410910-AIChatbox20260513.mp4",
@@ -643,7 +643,7 @@
                 "物料调度"
               ],
               "poster": {
-                "title": "泥非易AI ChatBox集成应用",
+                "title": "泥飞易AI ChatBox集成应用",
                 "subtitle": "",
                 "theme": {
                   "from": "#0f172a",
