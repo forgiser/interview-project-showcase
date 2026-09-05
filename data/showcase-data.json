@@ -6,192 +6,12 @@
   },
   "projects": [
     {
-      "id": "project-3",
-      "slug": "meas",
-      "name": "MEAS污染排放专家标准系统",
-      "intro": "在环保异常检测场景下，为解决时序标注数据稀缺和人工研判效率低的问题，搭建智能检测与专家标注一体化平台",
-      "cover": {
-        "title": "MEAS污染排放专家标准系统",
-        "subtitle": "",
-        "theme": {
-          "from": "#0f172a",
-          "to": "#0f766e",
-          "accent": "#22c55e"
-        }
-      },
-      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
-      "tags": [
-        "MEAS标准",
-        "污染检测"
-      ],
-      "facts": [
-        {
-          "label": "模块数",
-          "value": "1 个"
-        },
-        {
-          "label": "功能数",
-          "value": "1 个"
-        }
-      ],
-      "modules": [
-        {
-          "id": "module-9",
-          "slug": "preview",
-          "name": "MEAS污染标注预览",
-          "intro": "全流程预览MEAS工作，可以实现时序数据特征检测，并支持在线标注",
-          "highlight": "",
-          "poster": {
-            "title": "MEAS污染标注预览",
-            "subtitle": "",
-            "theme": {
-              "from": "#0f172a",
-              "to": "#0f766e",
-              "accent": "#22c55e"
-            }
-          },
-          "features": [
-            {
-              "id": "feature-20",
-              "slug": "污染标注全流程演示",
-              "name": "污染标注全流程演示",
-              "intro": "设计“诊断任务创建-时序特征检测-专家标注-专家审核-标注数据集入库”标注流程，产出海量时序数据标注结果，用于AI训练",
-              "highlight": "",
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
-              "bullets": [],
-              "poster": {
-                "title": "污染标注全流程演示",
-                "subtitle": "",
-                "theme": {
-                  "from": "#0f172a",
-                  "to": "#0f766e",
-                  "accent": "#22c55e"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "project-2",
-      "slug": "jepi-platform",
-      "name": "江苏省生态“绿智”知识中台",
-      "intro": "隶属省部级项目：固定污染源智能监管，为了应对环保政策查询与答疑场景，负责搭建政策知识中台，支持政策解读、条款检索、依据溯源等多类问答场景，目前已经供20+厅内人员使用",
-      "cover": {
-        "title": "江苏省生态“绿智”知识中台",
-        "subtitle": "",
-        "theme": {
-          "from": "#0f172a",
-          "to": "#0f766e",
-          "accent": "#22c55e"
-        }
-      },
-      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
-      "tags": [
-        "Agentic RAG",
-        "政策解读",
-        "依据溯源"
-      ],
-      "facts": [
-        {
-          "label": "模块数",
-          "value": "2 个"
-        },
-        {
-          "label": "功能数",
-          "value": "2 个"
-        }
-      ],
-      "modules": [
-        {
-          "id": "module-7",
-          "slug": "knowledge-pares",
-          "name": "知识治理",
-          "intro": "从环保厅网站爬取政策文件，覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于MinerU针对附件进行结构化处理，解析成功率达95%，并基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库。",
-          "highlight": "",
-          "poster": {
-            "title": "知识治理",
-            "subtitle": "",
-            "theme": {
-              "from": "#0f172a",
-              "to": "#0f766e",
-              "accent": "#22c55e"
-            }
-          },
-          "features": [
-            {
-              "id": "feature-17",
-              "slug": "环保政策文件治理",
-              "name": "环保政策文件治理",
-              "intro": "覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库，实习政策文件在线查看",
-              "highlight": "",
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
-              "bullets": [
-                "MinerU文档解析",
-                "知识库构建",
-                "政策中心"
-              ],
-              "poster": {
-                "title": "环保政策文件治理",
-                "subtitle": "",
-                "theme": {
-                  "from": "#0f172a",
-                  "to": "#0f766e",
-                  "accent": "#22c55e"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "module-8",
-          "slug": "document-search-qa",
-          "name": "RAG问答",
-          "intro": "　基于Agentic RAG架构，由智能体自主识别用户意图，基于动态路由检索与多路检索融合排序，实现高召回的AI问答",
-          "highlight": "",
-          "poster": {
-            "title": "RAG问答",
-            "subtitle": "",
-            "theme": {
-              "from": "#0f172a",
-              "to": "#0f766e",
-              "accent": "#22c55e"
-            }
-          },
-          "features": [
-            {
-              "id": "feature-18",
-              "slug": "pocity-qa",
-              "name": "政策查询问答",
-              "intro": "基于RAG索引业务文件，并提供文档链接",
-              "highlight": "",
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/rag%E9%97%AE%E7%AD%94/%E6%94%BF%E7%AD%96%E6%9F%A5%E8%AF%A2%E9%97%AE%E7%AD%94/20260826/1787730288687-AI.mp4",
-              "bullets": [
-                "RAG索引",
-                "知识检索"
-              ],
-              "poster": {
-                "title": "政策查询问答",
-                "subtitle": "",
-                "theme": {
-                  "from": "#0f172a",
-                  "to": "#0f766e",
-                  "accent": "#22c55e"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "project-1",
       "slug": "geo-aiops-platform",
-      "name": "GeoAIOps 地理 AI 运维平台",
-      "intro": "国家重点研发计划“地理空间智能核心技术与软件系统”项目。面向未来城市地理空间数据、模型资产化管理与快速应用搭建需求，构建数据、模型、知识、AI 应用一体化的地理智能运维与应用构建平台，并通过智能对话组件打通资源接入、智能编排与业务交互闭环。",
+      "name": "UrbanCore城市智核·空间智能平台",
+      "intro": "国家重点研发计划“地理空间智能核心技术与软件系统”项目。面向城市空间数据与分析模型资产化管理需求，构建一体化城市空间智能平台，实现大模型意图理解与空间计算引擎的深度耦合，实现城市空间治理的AI赋能应用。",
       "cover": {
-        "title": "GeoAIOps",
+        "title": "UrbanCore",
         "subtitle": "数据 / 模型 / 知识 / Agent / 工作流 / 智能对话",
         "theme": {
           "from": "#0f172a",
@@ -201,7 +21,7 @@
       },
       "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E5%9F%8E%E5%B8%82%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.mp4",
       "tags": [
-        "GeoAI",
+        "UrbanAI",
         "AIOps",
         "Vue Flow",
         "Spring AI Alibaba"
@@ -596,7 +416,7 @@
           "id": "module-6",
           "slug": "geo-ai-true-project",
           "name": "真实案例应用",
-          "intro": "GeoAIOps在城市治理领域中的真实应用",
+          "intro": "UrbanCore在城市治理领域中的真实应用",
           "highlight": "",
           "poster": {
             "title": "真实案例应用",
@@ -622,6 +442,24 @@
               ],
               "poster": {
                 "title": "异常排放智能检测智能体",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-27",
+              "slug": "十五分钟生活圈应用演示",
+              "name": "十五分钟生活圈应用演示",
+              "intro": "集成POI设施数据及道路数据，利用空间聚类与等时圈算法，动态生成并可视化十五分钟生活圈，直观展示居民步行可达范围内的教育、医疗、商业等公共服务设施分布，支持设施覆盖率计算、服务盲区识别及多场景规划模拟，为城市更新和社区治理提供智能决策支持。",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/geo-ai-true-project/%E5%8D%81%E4%BA%94%E5%88%86%E9%92%9F%E7%94%9F%E6%B4%BB%E5%9C%88%E5%BA%94%E7%94%A8%E6%BC%94%E7%A4%BA/20260905/1788601727159-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "十五分钟生活圈应用演示",
                 "subtitle": "",
                 "theme": {
                   "from": "#0f172a",
@@ -671,28 +509,6 @@
           },
           "features": [
             {
-              "id": "feature-1",
-              "slug": "system-login",
-              "name": "系统登录",
-              "intro": "通过统一登录进入 GeoAIOps 平台，基于RBAC的权限设计实现资源的控制，进入后可访问城市数据、模型资产和 AI 应用构建能力。",
-              "highlight": "统一登录进入 GeoAIOps 平台工作台，承接数据、模型、知识与 AI 应用能力。",
-              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/geo-ai-ops/%E7%B3%BB%E7%BB%9F%E7%99%BB%E5%BD%95.mp4",
-              "bullets": [
-                "统一认证入口",
-                "平台工作台",
-                "核心能力导航"
-              ],
-              "poster": {
-                "title": "系统登录",
-                "subtitle": "统一登录进入 GeoAIOps 平台工作台，承接数据、模型、知识与 AI 应用能力。",
-                "theme": {
-                  "from": "#0f172a",
-                  "to": "#0f766e",
-                  "accent": "#22c55e"
-                }
-              }
-            },
-            {
               "id": "feature-26",
               "slug": "geo-chat-box-resource",
               "name": "GeoChatBox资源获取",
@@ -705,6 +521,186 @@
               ],
               "poster": {
                 "title": "GeoChatBox资源获取",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-3",
+      "slug": "meas",
+      "name": "MEAS污染排放专家标准系统",
+      "intro": "在环保异常检测场景下，为解决时序标注数据稀缺和人工研判效率低的问题，搭建智能检测与专家标注一体化平台",
+      "cover": {
+        "title": "MEAS污染排放专家标准系统",
+        "subtitle": "",
+        "theme": {
+          "from": "#0f172a",
+          "to": "#0f766e",
+          "accent": "#22c55e"
+        }
+      },
+      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
+      "tags": [
+        "MEAS标准",
+        "污染检测"
+      ],
+      "facts": [
+        {
+          "label": "模块数",
+          "value": "1 个"
+        },
+        {
+          "label": "功能数",
+          "value": "1 个"
+        }
+      ],
+      "modules": [
+        {
+          "id": "module-9",
+          "slug": "preview",
+          "name": "MEAS污染标注预览",
+          "intro": "全流程预览MEAS工作，可以实现时序数据特征检测，并支持在线标注",
+          "highlight": "",
+          "poster": {
+            "title": "MEAS污染标注预览",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-20",
+              "slug": "污染标注全流程演示",
+              "name": "污染标注全流程演示",
+              "intro": "设计“诊断任务创建-时序特征检测-专家标注-专家审核-标注数据集入库”标注流程，产出海量时序数据标注结果，用于AI训练",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/meas/preview/%E6%B1%A1%E6%9F%93%E6%A0%87%E6%B3%A8%E5%85%A8%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/20260826/1787734124833-1.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "污染标注全流程演示",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-2",
+      "slug": "jepi-platform",
+      "name": "江苏省生态“绿智”知识中台",
+      "intro": "隶属省部级项目：固定污染源智能监管，为了应对环保政策查询与答疑场景，负责搭建政策知识中台，支持政策解读、条款检索、依据溯源等多类问答场景，目前已经供20+厅内人员使用",
+      "cover": {
+        "title": "江苏省生态“绿智”知识中台",
+        "subtitle": "",
+        "theme": {
+          "from": "#0f172a",
+          "to": "#0f766e",
+          "accent": "#22c55e"
+        }
+      },
+      "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
+      "tags": [
+        "Agentic RAG",
+        "政策解读",
+        "依据溯源"
+      ],
+      "facts": [
+        {
+          "label": "模块数",
+          "value": "2 个"
+        },
+        {
+          "label": "功能数",
+          "value": "2 个"
+        }
+      ],
+      "modules": [
+        {
+          "id": "module-7",
+          "slug": "knowledge-pares",
+          "name": "知识治理",
+          "intro": "从环保厅网站爬取政策文件，覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于MinerU针对附件进行结构化处理，解析成功率达95%，并基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库。",
+          "highlight": "",
+          "poster": {
+            "title": "知识治理",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-17",
+              "slug": "环保政策文件治理",
+              "name": "环保政策文件治理",
+              "intro": "覆盖160个爬取节点，采集管理3万+政策正文，2万+附件；基于结构语义感知切分策略，构建并维护100万+chunks的高质量知识库，实习政策文件在线查看",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/knowledge-pares/%E7%8E%AF%E4%BF%9D%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6%E6%B2%BB%E7%90%86/20260826/1787730102261-video.mp4",
+              "bullets": [
+                "MinerU文档解析",
+                "知识库构建",
+                "政策中心"
+              ],
+              "poster": {
+                "title": "环保政策文件治理",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-8",
+          "slug": "document-search-qa",
+          "name": "RAG问答",
+          "intro": "　基于Agentic RAG架构，由智能体自主识别用户意图，基于动态路由检索与多路检索融合排序，实现高召回的AI问答",
+          "highlight": "",
+          "poster": {
+            "title": "RAG问答",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-18",
+              "slug": "pocity-qa",
+              "name": "政策查询问答",
+              "intro": "基于RAG索引业务文件，并提供文档链接",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/jepi-platform/rag%E9%97%AE%E7%AD%94/%E6%94%BF%E7%AD%96%E6%9F%A5%E8%AF%A2%E9%97%AE%E7%AD%94/20260826/1787730288687-AI.mp4",
+              "bullets": [
+                "RAG索引",
+                "知识检索"
+              ],
+              "poster": {
+                "title": "政策查询问答",
                 "subtitle": "",
                 "theme": {
                   "from": "#0f172a",
