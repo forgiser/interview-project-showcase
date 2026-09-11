@@ -33,7 +33,7 @@
         },
         {
           "label": "功能数",
-          "value": "18 个"
+          "value": "19 个"
         }
       ],
       "modules": [
@@ -460,6 +460,27 @@
               "bullets": [],
               "poster": {
                 "title": "十五分钟生活圈应用演示",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-28",
+              "slug": "城市分析操作台",
+              "name": "城市分析操作台",
+              "intro": "基于内置Agent调度城市数据资源、城市模型工具资源实现城市分析",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/geo-aiops-platform/geo-ai-true-project/%E5%9F%8E%E5%B8%82%E5%88%86%E6%9E%90%E6%93%8D%E4%BD%9C%E5%8F%B0/20260911/1789107649518-video.mp4",
+              "bullets": [
+                "资源调度",
+                "AI Ready"
+              ],
+              "poster": {
+                "title": "城市分析操作台",
                 "subtitle": "",
                 "theme": {
                   "from": "#0f172a",
