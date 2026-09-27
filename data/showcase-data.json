@@ -6,6 +6,196 @@
   },
   "projects": [
     {
+      "id": "project-5",
+      "slug": "eco-sentinel",
+      "name": "EcoSentinel 生态哨兵智能体",
+      "intro": "环保内部人员需从海量时序监测数据中人工研判异常排放，单案件平均耗时120分钟，项目整合拆解检测算子（110+），构建专家经验知识库，使执法人员通过自然语言交互完成异常研判，系统自动输出可追溯证据链并锁定高嫌疑对象。累计辅助1200+线索研判，单案件研判时间降至10分钟以内。",
+      "cover": {
+        "title": "EcoSentinel 生态哨兵智能体",
+        "subtitle": "",
+        "theme": {
+          "from": "#0f172a",
+          "to": "#0f766e",
+          "accent": "#22c55e"
+        }
+      },
+      "videoUrl": "",
+      "tags": [],
+      "facts": [
+        {
+          "label": "模块数",
+          "value": "4 个"
+        },
+        {
+          "label": "功能数",
+          "value": "5 个"
+        }
+      ],
+      "modules": [
+        {
+          "id": "module-15",
+          "slug": "konwledge",
+          "name": "专家经验管理",
+          "intro": "对220+跨行业专家经验进行结构化知识落地,有效支撑动态异常检测工作流的构建",
+          "highlight": "",
+          "poster": {
+            "title": "专家经验管理",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-31",
+              "slug": "专家经验管理",
+              "name": "专家经验管理",
+              "intro": "",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/konwledge/%E4%B8%93%E5%AE%B6%E7%BB%8F%E9%AA%8C%E7%AE%A1%E7%90%86/20260927/1790490242330-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "专家经验管理",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-32",
+              "slug": "专家经验集成",
+              "name": "专家经验集成",
+              "intro": "",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/konwledge/%E4%B8%93%E5%AE%B6%E7%BB%8F%E9%AA%8C%E9%9B%86%E6%88%90/20260927/1790490477830-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "专家经验集成",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-16",
+          "slug": "algorithm",
+          "name": "异常算子管理",
+          "intro": "将110+个检测算子拆解为300+个原子算子，有效支撑异常检测研判",
+          "highlight": "",
+          "poster": {
+            "title": "异常算子管理",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-33",
+              "slug": "算子列表管理",
+              "name": "算子列表管理",
+              "intro": "支持专家自主集成知识，并支持AI将语义化的知识转换为结构化的工作流",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/algorithm/%E7%AE%97%E5%AD%90%E5%88%97%E8%A1%A8%E7%AE%A1%E7%90%86/20260927/1790490603813-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "算子列表管理",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-34",
+              "slug": "算子集成",
+              "name": "算子集成",
+              "intro": "基于标准规范集成异常检测算子",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/algorithm/%E7%AE%97%E5%AD%90%E9%9B%86%E6%88%90/20260927/1790490740724-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "算子集成",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "module-17",
+          "slug": "评估与可观测",
+          "name": "评估与可观测",
+          "intro": "简历评估与可观测后台，支撑对接langfuse，实现对agent追踪",
+          "highlight": "",
+          "poster": {
+            "title": "评估与可观测",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": []
+        },
+        {
+          "id": "module-18",
+          "slug": "chat",
+          "name": "智能问答",
+          "intro": "涵盖7类意图1理解，支撑展示执行流程，支持溯源，支持用户反馈",
+          "highlight": "",
+          "poster": {
+            "title": "智能问答",
+            "subtitle": "",
+            "theme": {
+              "from": "#0f172a",
+              "to": "#0f766e",
+              "accent": "#22c55e"
+            }
+          },
+          "features": [
+            {
+              "id": "feature-35",
+              "slug": "智能问答",
+              "name": "智能问答",
+              "intro": "基于意图识别、任务规划、任务执行、证据链整理等流程实现智能异常现象研判",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/chat/%E6%99%BA%E8%83%BD%E9%97%AE%E7%AD%94/20260927/1790490886765-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "智能问答",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "project-4",
       "slug": "city-brain",
       "name": "CityBrain Agent 面向城市应用数据处理于分析的Agent CLI",
