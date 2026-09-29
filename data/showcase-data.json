@@ -28,7 +28,7 @@
         },
         {
           "label": "功能数",
-          "value": "5 个"
+          "value": "9 个"
         }
       ],
       "modules": [
@@ -155,7 +155,80 @@
               "accent": "#22c55e"
             }
           },
-          "features": []
+          "features": [
+            {
+              "id": "feature-36",
+              "slug": "评估数据集构建",
+              "name": "评估数据集构建",
+              "intro": "基于标准的黄金测试集构建流程，采用A/B独立标注，专家仲裁，一致性检测发布、测试集分层与切分的流程，实现4类黄金测试集、共6720条评估测试集",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E8%A7%82%E6%B5%8B/%E8%AF%84%E4%BC%B0%E6%95%B0%E6%8D%AE%E9%9B%86%E6%9E%84%E5%BB%BA/20260929/1790693514476-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "评估数据集构建",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-37",
+              "slug": "评估器设计",
+              "name": "评估器设计",
+              "intro": "基于混合评估器设计思路，针对确定性评估采用规则评估器，针对语义评估采用LLM-as-a-judge，并构建聚合评估器，将评估器集成再langfuse中",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E8%A7%82%E6%B5%8B/%E8%AF%84%E4%BC%B0%E5%99%A8%E8%AE%BE%E8%AE%A1/20260929/1790693628266-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "评估器设计",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-38",
+              "slug": "评估指标体系构建",
+              "name": "评估指标体系构建",
+              "intro": "面向分层、分点的评估指标体系，再langfuse上构建score config",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E8%A7%82%E6%B5%8B/%E8%AF%84%E4%BC%B0%E6%8C%87%E6%A0%87%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA/20260929/1790693674414-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "评估指标体系构建",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            },
+            {
+              "id": "feature-39",
+              "slug": "评估测试结果展示",
+              "name": "评估测试结果展示",
+              "intro": "基于Dataset、Experiment、Trace、Score的流程针对Agent实现评估测试",
+              "highlight": "",
+              "videoUrl": "https://pro-show.oss-cn-beijing.aliyuncs.com/ps-ops/eco-sentinel/%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E8%A7%82%E6%B5%8B/%E8%AF%84%E4%BC%B0%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E5%B1%95%E7%A4%BA/20260929/1790693758315-video.mp4",
+              "bullets": [],
+              "poster": {
+                "title": "评估测试结果展示",
+                "subtitle": "",
+                "theme": {
+                  "from": "#0f172a",
+                  "to": "#0f766e",
+                  "accent": "#22c55e"
+                }
+              }
+            }
+          ]
         },
         {
           "id": "module-18",
